@@ -1,0 +1,57 @@
+@import '_Variables';
+body{
+    background-color: $ColorFondo;
+    article{
+        margin: auto;
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+        grid-auto-rows: minmax(2, auto);
+        grid-template-areas:  "Uno"
+                              "Dos";
+        .a{
+            grid-area: Uno;
+        }
+        .b{
+            grid-area: Dos;
+        }
+        main{
+            width: 100%;
+            display:flex;
+            justify-content: center;
+            flex-flow: nowrap row;
+            div{
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                flex-direction: column;
+                img{
+                    margin: auto;
+                    width: 250px;
+                    height: 250px;
+                    border-radius: 50%;
+                }
+                h1{
+                    text-align: center;
+                    font: $FuenteVariante;
+                    font-size: 40px;
+                }
+                p{
+                    text-align: center;
+                    font: $FuenteNormal;
+                    font-size: 30px;
+                    margin: 10px;
+                }
+            }
+        }
+    }
+
+
+    h1{
+        text-align: center;
+        color: $ColorTitulo;
+        font: $FuenteTitulo;
+    }
+}
