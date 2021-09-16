@@ -1,0 +1,33 @@
+@import '_Variables';
+body{
+    background-color: $ColorFondo;
+    h1{
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        font: $FuenteTitulo;
+        color: $ColorTitulo;
+        font-weight: bold;
+    }
+    section{
+        width: 80%;
+        margin: auto;
+        ul{
+            list-style: none;
+            li{
+                margin: 20px auto;
+                text-align: justify;
+                font: $FuenteVariante;
+                color: $ColorText;
+                font-size: 20px;
+            }
+        }
+    }
+
+
+    h1{
+        text-align: center;
+        color: $ColorTitulo;
+        font: $FuenteTitulo;
+    }
+}
