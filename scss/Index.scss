@@ -1,22 +1,36 @@
 @import '_Variables';
 body{
     background-color: $ColorFondo;
-    article{
-        grid-area: article;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-direction: column;
-        .T1{
+    .Contenedor{
+        width: 100%;
+        transition: .6s;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: "Header Header"
+                             "article article"
+                             "boton boton";
+        #Cabeza{
+            grid-area: Header;
+        }
+        article{
+            grid-area: article;
             display: flex;
             justify-content: center;
-            h1{
-                font: $FuenteTitulo;
-                color: $ColorTitulo;
-                font-size: 35px;
-                margin: 5px;
-                font-weight: bold;
-                text-align: center;
+            align-content: center;
+            flex-direction: column;
+            .T1{
+                display: flex;
+                justify-content: center;
+                h1{
+                    font: $FuenteTitulo;
+                    color: $ColorTitulo;
+                    font-size: 35px;
+                    margin: 5px;
+                    font-weight: bold;
+                    text-align: center;
+                }
             }
         }
         .caja1{
@@ -61,8 +75,9 @@ body{
     #resultado{
         width: 20px;
         background-color: blue;
-    }
+    }                     
 }
+
 @media screen and (max-width: 768px){
     .Contenedor{
         grid-template-columns: repeat(2, 1fr);

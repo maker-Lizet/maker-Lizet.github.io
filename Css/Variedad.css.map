@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,IAAI,AAAA,CACA,gBAAgB,CCMN,OAAO,CDWpB,AAlBD,AAGQ,IAHJ,CAEA,WAAW,CACP,OAAO,AAAA,CACH,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,MAAM,CACvB,WAAW,CAAE,MAAM,CAQtB,AAhBT,AASY,IATR,CAEA,WAAW,CACP,OAAO,CAMH,KAAK,AAAA,CACD,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,gBAAgB,CAAE,OAAO,CACzB,MAAM,CAAE,eAAe,CACvB,aAAa,CAAE,IAAI,CACtB",
+    "sources": [
+        "../scss/Variedad.scss",
+        "../scss/_Variables.scss"
+    ],
+    "names": [],
+    "file": "Variedad.css"
+}

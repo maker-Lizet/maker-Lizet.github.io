@@ -1,6 +1,12 @@
 @import '_Variables';
 body{
     background-color: $ColorFondo;
+    section{
+        #disqus_thread{
+            width: 80%;
+            margin: auto;
+        }
+    }
     article{
         margin: auto;
         width: 90%;
