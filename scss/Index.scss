@@ -3,93 +3,61 @@ body{
     background-color: $ColorFondo;
     .Contenedor{
         width: 100%;
-        transition: .6s;
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, auto);
-        grid-template-areas: "Header Header"
-                             "article article"
-                             "boton boton";
-        #Cabeza{
-            grid-area: Header;
-        }
         article{
-            grid-area: article;
             display: flex;
             justify-content: center;
             align-content: center;
             flex-direction: column;
-            .T1{
+            .caja1{
+                width: 70%;
+                margin: auto;
                 display: flex;
                 justify-content: center;
-                h1{
-                    font: $FuenteTitulo;
-                    color: $ColorTitulo;
-                    font-size: 35px;
-                    margin: 5px;
-                    font-weight: bold;
+                .mini-division{
                     text-align: center;
+                    width: 90%;
+                    margin: auto;
+                    height: 5px;
+                    background-color: $ColorNormal;
+                }
+            }
+            .parra{
+                margin: auto;
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                p{
+                    width: 100%;
+                    text-align: center;
+                    font: $FuenteNormal;
+                    color: $ColorText;
                 }
             }
         }
-        .caja1{
+        section{
+            width: 95%;
             display: flex;
-            justify-content: center;
-            .mini-division{
-                text-align: center;
-                width: 450px;
-                height: 5px;
-                background-color: $ColorNormal;
-            }
-        }
-        .parra{
+            justify-content: space-around;
             margin: auto;
-            width: 80%;
-            display: flex;
-            justify-content: center;
-            p{
-                width: 100%;
-                text-align: center;
-                font: $FuenteNormal;
-                color: $ColorText;
+            a{
+                width: 30%;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
             }
-        }
-    }
-    section{
-        display: flex;
-        justify-content: space-around;
-        grid-area: boton;
-        a{
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            margin: 15px;
-            img{
-                width: 290px;
-                height: 290px;
-            }
-        }
-    }
-    #resultado{
-        width: 20px;
-        background-color: blue;
-    }                     
+        }    
+    }               
 }
 
 @media screen and (max-width: 768px){
     .Contenedor{
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, auto);
-        grid-template-areas: "Header Header"
-                             "article article"
-                             "boton boton";
         section{
             display: flex;
-            flex-flow: column nowrap;
             justify-content: center;
-            grid-area: boton;
             a{
                 margin: 15px 0px;
                 img{
@@ -99,4 +67,4 @@ body{
             }
         }
     }
-}
+}  
