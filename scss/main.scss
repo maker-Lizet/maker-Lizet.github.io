@@ -1,0 +1,161 @@
+@import '_variables', '_nav';
+
+body{
+    background-color: $ColorFondoI;
+    header{
+        background-color: $ColorFondeII;
+        width: 100%;
+        height: 100px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-between;
+        div{
+            margin: 0px 80px;
+            width: 48%;
+            display: flex;
+            justify-content: left;
+            align-content: center;
+            h1{
+                font: $fuenteTitulo;
+                margin: auto 5px ;
+            }
+            .Uno{
+                color: $ColorVariante;
+            }
+            .Dos{
+                color: $ColorFondoI;
+            }
+            .Tres{
+                color: $ColorTitulos;
+            }
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 20%;
+            a{
+                color: $ColorFondoI;
+                font: $fuenteTitulo;
+                text-decoration: none;
+            }
+        }
+    }
+    .Fondo{
+        width: 30%;
+        background-color: $ColorFondeII;
+        height: 1000px;
+        position: absolute;
+        z-index: -8;
+    }
+    main{
+        position: relative;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        img{
+            width: 90%;
+            text-align: center;
+        }
+        .CT{
+            display: flex;
+            position: absolute;
+            top: 40%;
+            left: 45%;
+            h1{
+                font: $fuenteTitulo;
+                font-size: 35px;
+                margin: auto 5px ;
+            }
+            .Uno{
+                color: $ColorVariante;
+            }
+            .Dos{
+                color: $ColorFondoI;
+            }
+            .Tres{
+                color: $ColorTitulos;
+            }
+            
+        }
+        h3{
+            position: absolute;
+            top: 50%;
+            left: 53%;
+            font: $fuenteVarinate;
+            color: #E21C47;
+            transform: translate(-50%, -50%);
+            font-size: 25px;
+            font-weight: bold;
+        }
+        h5{
+            position: absolute;
+            top: 55%;
+            left: 40%;
+            font: $fuenteVarinate;
+            color: $ColorVariante;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    .Caja{
+        display: flex;
+        justify-content: right;
+        .FondoII{
+            width: 33%;
+            height: 800px;
+            background-color: $ColorFondeII;
+            position: absolute;
+            z-index: -8;
+            float: right;
+            border-radius: 10px;
+        }
+    }
+    section{
+        width: 100%;
+        article{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            div{
+                margin: 20px;
+                display: flex;
+                justify-content: center;
+                a{
+                    img{
+                        width: 270px;
+                        height: 270px;
+                    }
+                }
+            }
+            .Tri{
+                width: 30%;
+            }
+            .Duo{
+                width: 35%;
+                justify-content: space-around;
+                margin: 0px;
+            }
+        }
+        .a{
+            width: 70%;
+            margin: auto;
+        }
+        div{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            a{
+                width: 100%;
+                text-align: center;
+                img{
+                    width: 270px;
+                    height: 270px;
+                }
+            }
+        }
+    }
+}
+
+
+//<a href="https://www.freepik.es/vectores/tecnologia">Vector de Tecnología creado por freepik - www.freepik.es</a>

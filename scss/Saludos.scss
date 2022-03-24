@@ -1,0 +1,75 @@
+@import '_variables', '_Reg', '_nav';
+
+.Pri{
+    width: 80%;
+    margin: auto;
+    h1{
+        font: $fuenteTitulo;
+        color: $ColorTitulos;
+        text-align: center;
+    }
+    main{
+        width: 90%;
+        margin: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        video{
+            margin: 20px;
+            width: 50%;
+        }
+    }
+    .ContImg{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        background-color: none;
+        justify-content: center;
+        img{
+            width: 60%;
+            margin: auto;
+        }
+    }
+}
+.Sec{
+    width: 80%;
+    margin: auto;
+    h1{
+        font: $fuenteTitulo;
+        color: $ColorTitulos;
+        text-align: center;
+    }
+    .Cont{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        div{
+            width: 55%;
+            background-color: $ColorVariante;
+            height: 350px;
+            margin: auto;
+            border-radius: 10px;
+            h1{
+                font: $fuenteTitulo;
+                font-size: 16px;
+                text-align: center;
+                color: $ColorTitulos;
+            }
+            video{
+                display: block;
+                width: 90%;
+                height: 250px;
+                margin: 40px auto;
+            }
+        }
+        main{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 80%;
+            }
+        }
+    }
+}

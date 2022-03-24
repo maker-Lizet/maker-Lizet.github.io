@@ -1,0 +1,38 @@
+.Reg{display:block;width:100px;height:100px;border-radius:50%;margin:20px;background-color:#000;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-transition:.5s;-o-transition:.5s;transition:.5s}.Reg:hover{background-color:#2d86c0}.Reg img{width:70%}header{background-color:#282c34;width:100%;height:100px;padding:0px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}header div{margin:0px 80px;width:48%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:left;-webkit-justify-content:left;-ms-flex-pack:left;justify-content:left;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center}header div h1{font:25px "Fredoka",sans-serif;margin:auto 5px}header div .Uno{color:#2d86c0}header div .Dos{color:#f7f9f8}header div .Tres{color:#cb4335}header nav{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;width:20%}header nav a{color:#f7f9f8;font:25px "Fredoka",sans-serif;text-decoration:none}.Pri{width:80%;margin:auto}.Pri h1{font:25px "Fredoka",sans-serif;color:#cb4335;text-align:center}.Pri main{width:90%;margin:30px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:space-around;-ms-flex-pack:distribute;justify-content:space-around;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center}.Pri main img{margin:20px;width:50%}.Pri .ContImg{width:50%;padding:20px;margin:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;background-color:#282c34;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;border-radius:20px}.Pri .ContImg video{width:100%;margin:auto}.Sec{width:80%;margin:auto}.Sec h1{font:25px "Fredoka",sans-serif;color:#cb4335;text-align:center}.Sec main{width:70%;margin:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;background-color:#f7f9f8;border-radius:20px}.Sec main img{width:60%;margin:auto}/*# sourceMappingURL=Preguntas.css.map */    justify-content: center;
+  border-radius: 20px;
+}
+.Pri .ContImg video {
+  width: 100%;
+  margin: auto;
+}
+
+.Sec {
+  width: 80%;
+  margin: auto;
+}
+.Sec h1 {
+  font: 25px "Fredoka", sans-serif;
+  color: #CB4335;
+  text-align: center;
+}
+.Sec main {
+  width: 70%;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  background-color: #F7F9F8;
+  border-radius: 20px;
+}
+.Sec main img {
+  width: 60%;
+  margin: auto;
+}/*# sourceMappingURL=Preguntas.css.map */
