@@ -1,0 +1,191 @@
+@import '../Scss/variables';
+body{
+    background-color: #ECF0F1;
+    margin: 0%;
+    padding: 0px;
+    header{
+        background-color: #ECF0F1;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        position: sticky;
+        z-index: 1000;
+        top: 0;
+        .Title{
+            width: 35%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            h1{
+                width: 100%;
+                font: $fntTitulos1;
+                margin: auto;
+                a{
+                    margin: 0px 0px 0px 50px;
+                    font: $fntTitulos1;
+                    text-decoration: none;
+                    .a{
+                        color: #F5BD17; 
+                    }
+                    .b{
+                        color: #BB2115;
+                    }
+                    .c{
+                        color: #5B70B0;
+                    }
+                    .d{
+                        color: #271639;
+                    }
+                    .e{
+                        color: #4EA882;
+                    }
+                }
+            }
+        }
+        nav{
+            width: 74%;
+            display: flex;
+            height: 100px;
+            justify-content: right;
+            align-items: center;
+            a{
+                margin: 10px;
+                font-weight: 1800;
+                font: $fntTitulos2;
+                text-decoration: none;
+                color: black;
+                &:hover{
+                    color: #271639;
+                    transition: .5;
+                }
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 150px;
+                height: 100px;
+                background-color: black;
+                a{
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+    main{
+        width: 100%;
+        margin: auto;
+        background-color: #5B70B0;
+        padding: 20px;
+        h1{
+            font: $fntTitulos2;
+            font-size: 50px;
+            margin: 40px;
+        }
+        p{
+            font: $fntTextos2;
+            font-size: 22px;
+            margin: 40px;
+        }
+    }
+    h1{
+        font: $fntTitulos2;
+        font-size: 50px;
+        margin: 40px;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        p{
+            width: 60%;
+            font: $fntTextos2;
+            font-size: 22px;
+            margin: 60px;
+        }
+        img{
+            border-radius: 10px;
+            width: 30%;
+            margin: 10px;
+        }
+    }
+    .pnt{
+        border: #4EA882 solid 6px;
+        border-radius: 20px;
+        padding: 20px;
+        width: 80%;
+        margin: auto;
+        font: $fntTextos2;
+    }
+    section{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: #271639;
+        border-radius: 15px;
+        div{
+            width: 49%;
+            margin: auto;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            h1{
+                text-align: center;
+                font: $fntTitulo1;
+                color: #5B70B0;
+                font-size: 25px;
+            }
+            p{
+                color: #ECF0F1;
+                font: $fntTextos1;
+            }
+            h2{
+                color: #BB2115;
+            }
+        }
+        .color{
+            background-color: #F5BD17;
+            border-radius: 25px;
+            width: 30%;
+            margin: auto;
+            padding: 20px;
+            p{
+                text-align: center;
+                font: $fntTitulo1;
+                color: #4EA882;
+                font-weight: bold;
+            }
+            img{
+                margin: auto;
+                width: 100%;
+            }
+        }
+    }
+    .oscar{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        background-color: #21252B;
+        border-radius: 15px;
+        div{
+            width: 49%;
+            margin: auto;
+            padding: 40px;
+            h1{
+                text-align: center;
+                font: $fntTitulo2;
+                color: #4EA882;
+                font-size: 25px;
+            }
+            p{
+                color: #ECF0F1;
+                font: $fntTextos2;
+            }
+        }
+    }
+}

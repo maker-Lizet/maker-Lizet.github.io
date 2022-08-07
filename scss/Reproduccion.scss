@@ -1,0 +1,119 @@
+@import '../Scss/variables';
+body{
+    background-color: #ECF0F1;
+    margin: 0%;
+    padding: 0px;
+    header{
+        background-color: #ECF0F1;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        position: sticky;
+        z-index: 1000;
+        top: 0;
+        .Title{
+            width: 35%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            h1{
+                width: 100%;
+                font: $fntTitulos1;
+                margin: auto;
+                a{
+                    margin: 0px 0px 0px 50px;
+                    font: $fntTitulos1;
+                    text-decoration: none;
+                    .a{
+                        color: #F5BD17; 
+                    }
+                    .b{
+                        color: #BB2115;
+                    }
+                    .c{
+                        color: #5B70B0;
+                    }
+                    .d{
+                        color: #271639;
+                    }
+                    .e{
+                        color: #4EA882;
+                    }
+                }
+            }
+        }
+        nav{
+            width: 74%;
+            display: flex;
+            height: 100px;
+            justify-content: right;
+            align-items: center;
+            a{
+                margin: 10px;
+                font-weight: 1800;
+                font: $fntTitulos2;
+                text-decoration: none;
+                color: black;
+                &:hover{
+                    color: #271639;
+                    transition: .5;
+                }
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 150px;
+                height: 100px;
+                background-color: black;
+                a{
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+    section{
+        margin: 80px auto;
+        width: 90%;
+        h1{
+            font: $fntTitulo2;
+            color: #5B70B0;
+        }
+        p{
+            font: $fntTextos2;
+            font-weight: bold;
+        }
+        div{
+            background-color: #271639;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            border-radius: 5px;
+            div{
+                width: 40%;
+                margin: 40px;
+                display: flex;
+                flex-direction: column;
+                h1{
+                    font: $fntTitulo1;
+                    font-weight: bold;
+                    color: #ECF0F1;
+                }
+                p{
+                    color: #ECF0F1;
+                    font: $fntTextos1;
+                }
+                img{
+                    border: #ECF0F1 solid;
+                    border-radius: 10px;
+                    margin: auto;
+                    width: 75%;
+                }
+            }
+        }
+    }
+}

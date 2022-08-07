@@ -1,0 +1,119 @@
+@import '../Scss/variables';
+body{
+    background-color: #ECF0F1;
+    margin: 0%;
+    padding: 0px;
+    header{
+        background-color: #ECF0F1;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        position: sticky;
+        z-index: 1000;
+        top: 0;
+        .Title{
+            width: 35%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            h1{
+                width: 100%;
+                font: $fntTitulos1;
+                margin: 0px;
+                a{
+                    margin: 0px 0px 0px 50px;
+                    font: $fntTitulos1;
+                    text-decoration: none;
+                    .a{
+                        color: #F5BD17; 
+                    }
+                    .b{
+                        color: #BB2115;
+                    }
+                    .c{
+                        color: #5B70B0;
+                    }
+                    .d{
+                        color: #271639;
+                    }
+                    .e{
+                        color: #4EA882;
+                    }
+                }
+            }
+        }
+        nav{
+            width: 74%;
+            display: flex;
+            height: 100px;
+            justify-content: right;
+            align-items: center;
+            a{
+                margin: 10px;
+                font-weight: 1800;
+                font: $fntTitulos2;
+                text-decoration: none;
+                color: black;
+                &:hover{
+                    color: #271639;
+                    transition: .5;
+                }
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                width: 150px;
+                height: 100px;
+                align-items: center;
+                background-color: black;
+                margin: 0px;
+                a{
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+    section{
+        margin: 80px auto;
+        width: 90%;
+        background-color: #271639;
+        padding: 20px;
+        border-radius: 10px;
+        h1{
+            margin: 30px;
+            font: $fntTitulo2;
+            color: #5B70B0;
+        }
+        p{
+            margin: 20px;
+            font: $fntTextos2;
+            color: #ECF0F1;
+        }
+    }
+    .Colage{
+        margin: auto;
+        width: 80%;
+        display: flex;
+        div{
+            width: 25%;
+            margin: 10px;
+            img{
+                border-radius: 10px;
+                width: 100%;
+                height: 276px;
+            }
+        }
+        .video{
+            width: 49%;
+            video{
+                border-radius: 10px;
+                width: 100%;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,45 @@
+body{background-color:#ecf0f1;margin:0%;padding:0px}body header{background-color:#ecf0f1;margin:0px;padding:0px;width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-align-content:center;-ms-flex-line-pack:center;align-content:center;position:-webkit-sticky;position:sticky;z-index:1000;top:0}body header .Title{width:35%;height:100px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}body header .Title h1{width:100%;font:50px "Mouse Memoirs",sans-serif;margin:auto}body header .Title h1 a{margin:0px 0px 0px 50px;font:50px "Mouse Memoirs",sans-serif;text-decoration:none}body header .Title h1 a .a{color:#f5bd17}body header .Title h1 a .b{color:#bb2115}body header .Title h1 a .c{color:#5b70b0}body header .Title h1 a .d{color:#271639}body header .Title h1 a .e{color:#4ea882}body header nav{width:74%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:100px;-webkit-box-pack:right;-webkit-justify-content:right;-ms-flex-pack:right;justify-content:right;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}body header nav a{margin:10px;font-weight:1800;font:16px "Righteous",cursive;text-decoration:none;color:#000}body header nav a:hover{color:#271639;-webkit-transition:.5;-o-transition:.5;transition:.5}body header nav div{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;width:150px;height:100px;background-color:#000}body header nav div a{color:#f0f8ff}body section{margin:80px auto;width:90%}body section h1{font:25px "Bebas Neue",cursive;color:#5b70b0;font-size:35px}body section p{padding:15px;font:18px "Patrick Hand",cursive;font-size:22px}body section div{background-color:#271639;padding:40px;border-radius:10px}body section div h2{font:20px "Indie Flower",cursive;font-size:25px;color:#bb2115;text-align:center}body section div div{padding:0px 40px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}body section div div div{width:49%;margin:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}body section div div div h1{font:25px "Bebas Neue",cursive;color:#5b70b0}body section div div div p{margin:20px;color:#ecf0f1;font:18px "Roboto Mono",monospace}body section div div div img{width:100%;border-radius:15px;border:#21252b solid 3px}body main{width:90%;margin:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}body main .text{background-color:#f5bd17;border-radius:15px;width:29%;margin:auto}body main .text .Contenedor{width:90%;padding:10px;margin:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}body main .text .Contenedor h3{margin:0px;display:inline;font:25px "Bebas Neue",cursive;text-align:center;color:#21252b}body main .text .Contenedor p{width:100%;font:18px "Patrick Hand",cursive;color:#4ea882;text-align:center}body main div{width:49%;margin:auto}body main div img{width:80%;border:#21252b solid 5px;border-radius:15px}/*# sourceMappingURL=Cuerpo.css.map */x-pack: center;
+          justify-content: center;
+}
+body main .text {
+  background-color: #F5BD17;
+  border-radius: 15px;
+  width: 29%;
+  margin: auto;
+}
+body main .text .Contenedor {
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+body main .text .Contenedor h3 {
+  margin: 0px;
+  display: inline;
+  font: 25px "Bebas Neue", cursive;
+  text-align: center;
+  color: #21252B;
+}
+body main .text .Contenedor p {
+  width: 100%;
+  font: 18px "Patrick Hand", cursive;
+  color: #4EA882;
+  text-align: center;
+}
+body main div {
+  width: 49%;
+  margin: auto;
+}
+body main div img {
+  width: 80%;
+  border: #21252B solid 5px;
+  border-radius: 15px;
+}/*# sourceMappingURL=Cuerpo.css.map */

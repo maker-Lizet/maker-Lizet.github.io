@@ -1,0 +1,196 @@
+body {
+  background-color: #ECF0F1;
+  margin: 0%;
+  padding: 0px;
+}
+body header {
+  background-color: #ECF0F1;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+}
+body header .Title {
+  width: 35%;
+  height: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header .Title h1 {
+  width: 100%;
+  font: 50px "Mouse Memoirs", sans-serif;
+  margin: auto;
+}
+body header .Title h1 a {
+  margin: 0px 0px 0px 50px;
+  font: 50px "Mouse Memoirs", sans-serif;
+  text-decoration: none;
+}
+body header .Title h1 a .a {
+  color: #F5BD17;
+}
+body header .Title h1 a .b {
+  color: #BB2115;
+}
+body header .Title h1 a .c {
+  color: #5B70B0;
+}
+body header .Title h1 a .d {
+  color: #271639;
+}
+body header .Title h1 a .e {
+  color: #4EA882;
+}
+body header nav {
+  width: 74%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-box-pack: right;
+  -webkit-justify-content: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header nav a {
+  margin: 10px;
+  font-weight: 1800;
+  font: 16px "Righteous", cursive;
+  text-decoration: none;
+  color: black;
+}
+body header nav a:hover {
+  color: #271639;
+  -webkit-transition: 0.5;
+  -o-transition: 0.5;
+  transition: 0.5;
+}
+body header nav div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+  height: 100px;
+  background-color: black;
+}
+body header nav div a {
+  color: aliceblue;
+}
+body main {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+body main div {
+  margin: 20px;
+  background-color: #5B70B0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  border-radius: 20px;
+}
+body main div h1 {
+  margin: 20px;
+  width: 30%;
+  height: 350px;
+  border-radius: 50%;
+  display: block;
+  background-color: #ECF0F1;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 10px;
+  font: 20px "Indie Flower", cursive;
+  font-size: 25px;
+}
+body main div h1 span {
+  margin: 130px auto 0px auto;
+  font: 50px "Mouse Memoirs", sans-serif;
+  font-size: 30px;
+}
+body main div h1 .U {
+  color: #271639;
+}
+body main div h1 .D {
+  color: #4EA882;
+}
+body main div h1 .T {
+  color: #5B70B0;
+}
+body main div h1 .C {
+  color: #BB2115;
+}
+body main div h1 .S {
+  color: #F5BD17;
+}
+body main .col {
+  background-color: #4EA882;
+}
+body section {
+  width: 80%;
+  margin: auto;
+}
+body section h1 {
+  font: 50px "Mouse Memoirs", sans-serif;
+  color: #271639;
+}
+body section h2 {
+  font: 18px "Roboto Mono", monospace;
+  margin: 20px;
+}/*# sourceMappingURL=Contacto.css.map */

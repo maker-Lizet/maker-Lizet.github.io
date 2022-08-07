@@ -1,0 +1,142 @@
+@import '../Scss/variables';
+body{
+    background-color: #ECF0F1;
+    margin: 0%;
+    padding: 0px;
+    header{
+        background-color: #ECF0F1;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+
+        position: sticky;
+        z-index: 1000;
+        top: 0;
+        .Title{
+            width: 35%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            h1{
+                width: 100%;
+                font: $fntTitulos1;
+                margin: auto;
+                a{
+                    margin: 0px 0px 0px 50px;
+                    font: $fntTitulos1;
+                    text-decoration: none;
+                    .a{
+                        color: #F5BD17; 
+                    }
+                    .b{
+                        color: #BB2115;
+                    }
+                    .c{
+                        color: #5B70B0;
+                    }
+                    .d{
+                        color: #271639;
+                    }
+                    .e{
+                        color: #4EA882;
+                    }
+                }
+            }
+        }
+        nav{
+            width: 74%;
+            display: flex;
+            height: 100px;
+            justify-content: right;
+            align-items: center;
+            a{
+                margin: 10px;
+                font-weight: 1800;
+                font: $fntTitulos2;
+                text-decoration: none;
+                color: black;
+                &:hover{
+                    color: #271639;
+                    transition: .5;
+                }
+            }
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 150px;
+                height: 100px;
+                background-color: black;
+                a{
+                    color: aliceblue;
+                }
+            }
+        }
+    }
+    main{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        div{
+            margin: 20px;
+            background-color: #5B70B0;
+            display: flex;
+            justify-content: space-around;
+            border-radius: 20px;
+            h1{
+                margin: 20px;
+                width: 30%;
+                height: 350px;
+                border-radius: 50%;
+                display: block;
+                background-color: #ECF0F1;
+                text-align: center;
+                display: flex;
+                align-content: center;
+                flex-direction: column;
+                line-height: 10px;
+                font: $fntNotas2;
+                font-size: 25px;
+                span{
+                    margin: 130px auto 0px auto;
+                    font: $fntTitulos1;
+                    font-size: 30px;
+                }
+                .U{
+                    color: #271639;
+                }
+                .D{
+                    color: #4EA882;
+                }
+                .T{
+                    color: #5B70B0;
+                }
+                .C{
+                    color: #BB2115;
+                }
+                .S{
+                    color: #F5BD17;
+                }
+            }
+        }
+        .col{
+            background-color: #4EA882;
+        }
+    }
+    section{
+        width: 80%;
+        margin: auto;
+        h1{
+            font: $fntTitulos1;
+            color: #271639;
+        }
+        h2{
+            font: $fntTextos1;
+            margin: 20px;
+        }
+    }
+}
